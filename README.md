@@ -11,17 +11,26 @@
   <p><strong>Fecha:</strong> 01/07/2025</p>
 
   <h2>Descripción del Proyecto</h2>
-  <p>Este proyecto consiste en el desarrollo de un <strong>comedero automático para mascotas</strong>, utilizando una placa Arduino UNO como cerebro principal. Fue desarrollado como proyecto final para la materia <strong>Laboratorio 1</strong> de la carrera de Ingeniería Informática en la <strong>Universidad Blas Pascal</strong>. El objetivo principal fue aplicar conocimientos de electrónica digital y programación embebida en un producto funcional, con interfaz intuitiva y configurable.</p>
+  <p>Este proyecto consiste en el desarrollo de un <strong>comedero automático para mascotas</strong>, utilizando una placa Arduino UNO como cerebro principal. Fue desarrollado como proyecto final para la materia <strong>Laboratorio 1</strong> de la carrera de Ingeniería Informática en la <strong>Universidad Blas Pascal</strong>. El objetivo principal fue aplicar conocimientos de electrónica digital y programación en un producto funcional, con interfaz intuitiva y configurable.</p>
 
-  <h2>Contenidos del Repositorio</h2>
-  <p>Este repositorio incluye:</p>
-  <ul>
-    <li><strong>Código Arduino:</strong> Código principal que permite configurar los horarios de alimentación y la cantidad de raciones mediante un encoder rotativo. Controla el reloj interno, muestra la hora en un display y activa un servo motor para dispensar alimento.</li>
-    <li><strong>Esquema del Circuito:</strong> Instrucciones detalladas para montar el circuito en Tinkercad, incluyendo conexiones entre la pantalla, RTC, servo, encoder y botón.</li>
-    <li><strong>Diagrama de Flujo:</strong> Explicación de los modos de funcionamiento del sistema (modo normal, configuración de hora, configuración de alimentación).</li>
-    <li><strong>Manual de Uso:</strong> Descripción paso a paso de cómo operar el comedero, modificar los horarios y activar la alimentación manualmente.</li>
-    <li><strong>Informe del Proyecto:</strong> Documento con desarrollo, problemas encontrados, soluciones aplicadas y posibles mejoras futuras.</li>
-  </ul>
+<h2>Contenidos del Repositorio</h2>
+<p>Este repositorio incluye:</p>
+<ul>
+  <li><strong>Código Arduino:</strong> Código fuente completo que permite controlar el funcionamiento del comedero automático. Permite configurar horarios, cantidad de raciones, visualizar la hora en tiempo real y controlar el servo motor para la dispensación de comida.</li>
+
+  <li><strong>Interfaz en Pantalla LCD:</strong> Implementación de un sistema de menús minimalista con encoder rotativo, que permite ajustar fácilmente la hora del sistema, los horarios de comida y las raciones a dispensar.</li>
+
+  <li><strong>Almacenamiento en EEPROM:</strong> Se utiliza la memoria EEPROM interna del Arduino para guardar la configuración del usuario (horarios y raciones), evitando la necesidad de reconfigurar el dispositivo cada vez que se reinicia.</li>
+
+  <li><strong>Esquema del Circuito:</strong> Diagramas de conexión entre los componentes electrónicos utilizados, incluyendo la pantalla LCD I2C, el módulo RTC DS1302, el servo motor, el encoder rotativo y el botón de alimentación manual.</li>
+
+  <li><strong>Diseño del Chasis:</strong> Diseño impreso en 3D que sirve como estructura para alojar el sistema electrónico del comedero. Permite sujetar el servo y direccionar la caída del alimento hacia el recipiente.</li>
+
+  <li><strong>Tutorial y Guía del Proyecto:</strong> Guía paso a paso sobre cómo armar el circuito, cargar el programa, ajustar la hora y programar las comidas.</li>
+
+  <li><strong>Informe del Proyecto:</strong> Documento detallado sobre el desarrollo del sistema, los desafíos encontrados, decisiones técnicas tomadas, pruebas realizadas y mejoras futuras.</li>
+</ul>
+
 
   <h2>Componentes Utilizados</h2>
   <ul>
@@ -31,7 +40,6 @@
     <li>Servo motor SG90</li>
     <li>Encoder rotativo con botón integrado</li>
     <li>Botón pulsador adicional para alimentación manual</li>
-    <li>Resistencias de 10kΩ (para pull-up del encoder si es necesario)</li>
     <li>Cables de conexión</li>
     <li>Protoboard o placa perforada para armado</li>
   </ul>
