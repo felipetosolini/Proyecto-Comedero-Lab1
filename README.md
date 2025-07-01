@@ -8,6 +8,7 @@
   <p><strong>Materia:</strong> Laboratorio 1</p>
   <p><strong>Carrera:</strong> Ingeniería Informática</p>
   <p><strong>Universidad:</strong> Universidad Blas Pascal</p>
+  <p><strong>Alumnos:</strong> Felipe Tosolini - Santiago Ferez - Agustina Revuelta</p>
   <p><strong>Fecha:</strong> 01/07/2025</p>
 
   <h2>Descripción del Proyecto</h2>
